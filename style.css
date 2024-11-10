@@ -1,0 +1,55 @@
+body {
+    font-family: "JetBrains Mono" ;
+    color: #00fff2 ;
+    background-color: #000000 ;
+    background-image: url('image-cache.jpeg');
+}
+.form-control {
+    color: #00fff2;
+    border: 2px solid #00fff2;
+    border-radius: 12px ;
+    background-color: transparent ;
+    transition: 0.5s ;
+    height: 40%;
+
+}
+.field {
+    margin: 30px 0;
+}
+#textarea {
+    width: 100%; 
+    height: 400px; 
+    font-size: 20px;
+    color: #9900ff;
+}
+
+.btn-clear {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    border: 2px solid #00fff2 !important;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin: 16px 16px -16px 0;
+    transition: 0.5s;
+}
+.btn-clear:focus{
+    box-shadow: 0 0 0 0.25rem #8e70ee ;
+}
+.btn-clear:hover {
+    transform: scale(1.05);
+    background-color: #ff0000 !important;
+}
+.page_title {
+    text-align: center;
+    margin: 20px 0 40px;
+    color: #00fff2;
+}
+
+#word_counter,
+#character_counter,
+#line_counter {
+    font-size: 24px;
+    color: #00ffbb;
+    font-weight: bold;
+}
